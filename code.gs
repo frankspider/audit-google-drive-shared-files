@@ -34,7 +34,9 @@ function ExamineAll(folder) {
              Logger.log(viewers);
          }
          cnt++;  //data chunk pushes all the file info to the ss
-
+   
+        Logger.log(file);
+        
          data = [
              file.getName(),
              file.getSharingAccess(),
